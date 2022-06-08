@@ -1,0 +1,14 @@
+.pagination-numbers {
+  font-weight: 600;
+  font-size: 14px;
+  padding: 4px;
+  cursor: pointer;
+  color: #646464;
+  &.active {
+    color: #ff6000;
+  }
+}
+
+.pagination-dots {
+  margin-right: 10px;
+}

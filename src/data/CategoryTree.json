@@ -1,0 +1,238 @@
+[
+   {
+      "id":60002705,
+      "name":"Yapı Market / Bahçe / Oto",
+      "children":[
+         {
+            "id":60001492,
+            "name":"Köşe Sacları"
+         },
+         {
+            "id":80059020,
+            "name":"Son Eklenenler"
+         },
+         {
+            "id":60005226,
+            "name":"Elektrikli"
+         },
+         {
+            "id":60003752,
+            "name":"Bahçe Çatalı"
+         },
+         {
+            "id":2147483601,
+            "name":"Bahçe",
+            "children":[
+               {
+                  "id":80511030,
+                  "name":"Katı Yakıt Sobası"
+               },
+               {
+                  "id":80493046,
+                  "name":"Hazır Yapılar"
+               },
+               {
+                  "id":460347,
+                  "name":"Çiçek Bakımı & Bitki Yetiştirme",
+                  "children":[
+                     {
+                        "id":34000013,
+                        "name":"Hediyelik Fidanlar"
+                     },
+                     {
+                        "id":34001394,
+                        "name":"Aşılı Meyve Fidanları"
+                     },
+                     {
+                        "id":34000018,
+                        "name":"Tohumlar",
+                        "children":[
+                           {
+                              "id":60005076,
+                              "name":"Çiçek Tohumu"
+                           },
+                           {
+                              "id":34000492,
+                              "name":"Meyve Tohumu"
+                           }
+                        ]
+                     },
+                     {
+                        "id":34000017,
+                        "name":"Çiçek Soğanları"
+                     },
+                     {
+                        "id":60000015,
+                        "name":"Çiçekli Bodur Bitkiler"
+                     },
+                     {
+                        "id":34001429,
+                        "name":"Dış Mekan Ağaçları"
+                     },
+                     {
+                        "id":34000210,
+                        "name":"Tıbbi Aromatik Bitkiler"
+                     },
+                     {
+                        "id":34000016,
+                        "name":"Fideler",
+                        "children":[
+                           {
+                              "id":454087,
+                              "name":"Bahçe Fideleri"
+                           }
+                        ]
+                     },
+                     {
+                        "id":34001279,
+                        "name":"Gübreler"
+                     },
+                     {
+                        "id":34000012,
+                        "name":"Fidanlar"
+                     }
+                  ]
+               },
+               {
+                  "id":80408115,
+                  "name":"Elektronik & Ses Sistemi",
+                  "children":[
+                     {
+                        "id":80408118,
+                        "name":"Navigasyon Aksesuarları"
+                     },
+                     {
+                        "id":80408117,
+                        "name":"Hoparlör"
+                     },
+                     {
+                        "id":60004743,
+                        "name":"GPS & Navigasyon"
+                     },
+                     {
+                        "id":80408116,
+                        "name":"Intercom"
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "id":264130,
+            "name":"Tuning (Auto Sport)",
+            "children":[
+               {
+                  "id":263146,
+                  "name":"Spor yaylar"
+               },
+               {
+                  "id":264971,
+                  "name":"Performans",
+                  "children":[
+                     {
+                        "id":266220,
+                        "name":"Fren"
+                     },
+                     {
+                        "id":264557,
+                        "name":"Hava Filtrelerı",
+                        "children":[
+                           {
+                              "id":264562,
+                              "name":"Hava Filitre Ekipmanları"
+                           },
+                           {
+                              "id":264559,
+                              "name":"Açık Filtreler"
+                           }
+                        ]
+                     },
+                     {
+                        "id":265020,
+                        "name":"Filtre Kit ve Aparatları"
+                     },
+                     {
+                        "id":265032,
+                        "name":"Hava Filtreleri",
+                        "children":[
+                           {
+                              "id":265049,
+                              "name":"Açık Filtre"
+                           },
+                           {
+                              "id":265046,
+                              "name":"Kutu İçi Filtre"
+                           }
+                        ]
+                     },
+                     {
+                        "id":265054,
+                        "name":"Katkı"
+                     },
+                     {
+                        "id":265162,
+                        "name":"Blow Off / Turbo"
+                     },
+                     {
+                        "id":272725,
+                        "name":"Fan Motorları"
+                     }
+                  ]
+               },
+               {
+                  "id":264970,
+                  "name":"İç Spor Dizayn",
+                  "children":[
+                     {
+                        "id":265009,
+                        "name":"Teyp Çerçevelerı"
+                     },
+                     {
+                        "id":265446,
+                        "name":"Tuning Kitler"
+                     }
+                  ]
+               },
+               {
+                  "id":263038,
+                  "name":"Körükler"
+               }
+            ]
+         }
+      ]
+   },
+   {
+      "id":80562003,
+      "name":"Dijital Ürünler",
+      "children":[
+         {
+            "id":80562004,
+            "name":"Akaryakıt ve Oto Paketleri"
+         }
+      ]
+   },
+   {
+      "id":80483111,
+      "name":"Kışlık Ürünler"
+   },
+   {
+      "id":80398007,
+      "name":"Beşikler Yataklar Oyun Parkları"
+   },
+   {
+      "id":80398006,
+      "name":"Bebek Hediyelik"
+   },
+   {
+      "id":80398001,
+      "name":"Bakım Çantaları ve Kangurular"
+   },
+   {
+      "id":80383140,
+      "name":"Bakım Çantaları"
+   },
+   {
+      "id":23021019,
+      "name":"Uyku Setleri"
+   }
+]

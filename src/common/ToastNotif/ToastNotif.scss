@@ -1,0 +1,107 @@
+.notification_container {
+  position: fixed;
+  z-index: 10;
+  @media only screen and (min-width: 600px) {
+    right: -.3em;
+    top: -.3em;
+    float: right;
+  }
+}
+
+.button_direction {
+  @media only screen and (min-width: 600px) {
+    top: 1rem;
+  }
+  right: 1rem;
+  animation: toast-in-right .7s;
+  @media only screen and (max-width: 600px) {
+    bottom: 50.6rem;
+    animation: toast-in-down .7s;
+  }
+}
+
+.notification {
+  background: #fff;
+  padding: 30px;
+  margin-bottom: 15px;
+  width: 326px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #999;
+  @media only screen and (min-width: 600px) {
+    border-left-style: solid;
+    border-width: 8px;
+  }
+}
+
+.notification:hover {
+  box-shadow: 0 0 12px #fff;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.toast_icon {
+  margin-right: 1rem;
+}
+
+.title {
+  margin-right: auto;
+  font-weight: 600;
+}
+
+.toast {
+  color: #484848;
+  padding: 20px 15px 10px 10px;
+}
+
+.toast_content {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: 0.6rem;
+}
+
+.description {
+  font-size: 12px;
+  position: relative;
+  left: 2.5rem;
+  display: flex;
+  bottom: 0.4rem;
+  @media only screen and (max-width: 600px)  {
+    left: 2.8rem;
+  }
+}
+
+.link {
+  position: relative;
+  left: 2.5rem;
+  font-size: 12px;
+  @media only screen and (max-width: 600px)  {
+    left: 2.8rem;
+  }
+}
+
+.buttons {
+  @media only screen and (max-width: 600px)  {
+    margin-top: 8rem;
+  }
+}
+
+@keyframes toast-in-right {
+  from {
+    transform: translateX(100%);
+
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes toast-in-down {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}

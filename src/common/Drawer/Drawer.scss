@@ -1,0 +1,112 @@
+.drawer_buttons {
+  display: flex;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.48);
+}
+
+.drawer {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: #fff;
+  box-shadow: 0 0 30px RGB(0 0 0 / 30%);
+  top: 0;
+
+  &.small {
+    width: 25%;
+  }
+  &.medium {
+    width: 35%;
+  }
+  &.large {
+    width: 45%;
+  }
+
+  &.left {
+    left: 0;
+  }
+  &.right {
+    right: 0;
+  }
+  &.center {
+    justify-content: center;
+  }
+}
+
+.drawer_title {
+  display: flex;
+  padding-bottom: 8px;
+  &.scroll_title {
+    border-bottom: 1px solid #9b9b9b38;
+  }
+}
+
+.close_drawer {
+  display: flex;
+  position: relative;
+  cursor: pointer;
+  left: 8px;
+  padding: -11px;
+  width: 28px;
+  height: 28px;
+}
+
+.title {
+  animation: drawer_title_animation 0.4s;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 18.2%;
+  color: #00000f;
+  font-size: 28px;
+  font-weight: 600;
+
+  @keyframes drawer_title_animation {
+    from {
+      font-size: 24px;
+    }
+  }
+}
+.show_title {
+  @extend .title;
+  font-size: 22px;
+}
+
+.drawer_body {
+  overflow: auto;
+  -ms-overflow-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding: 2px;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.drawer_footer {
+  bottom: 0;
+  position: relative;
+  width: 100%;
+  display: flex;
+  background-color: #fff;
+  justify-content: space-around;
+}
+
+.body_transparent {
+  position: absolute;
+  height: 32px;
+  top: -31px;
+  width: 100%;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #fff);
+}

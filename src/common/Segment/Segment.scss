@@ -1,0 +1,82 @@
+
+.segments-container {
+  --highlight-width: auto;
+  --highlight-x-pos: 0;
+
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.controls {
+  display: flex;
+  background: lightgray;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 2px;
+  margin: auto;
+  position: relative;
+}
+
+.controls input {
+  opacity: 0;
+  margin: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  cursor: pointer;
+  height: 100%;
+}
+
+.segment {
+  min-width: 120px;
+  position: relative;
+  text-align: center;
+}
+
+.segment--tiny {
+  font-size: 0.8rem;
+}
+.segment--small {
+  font-size: 1rem;
+}
+
+.segment--large {
+  font-size: 1.2rem;
+}
+
+.segment--default{
+
+}
+.segment--fluid{
+
+}
+
+.segment label {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  padding: 18px;
+  transition: color 0.5s ease;
+  color: #484848;
+}
+
+.controls::before {
+  content: "";
+  background: #ffffff;
+  border-radius: 8px;
+  width: var(--highlight-width);
+  transform: translateX(var(--highlight-x-pos));
+  position: absolute;
+  top: 2px;
+  bottom: 2px;
+  left: 0;
+}
+
+.controls.ready::before {
+  transition: transform 0.3s ease, width 0.3s ease;
+}
+

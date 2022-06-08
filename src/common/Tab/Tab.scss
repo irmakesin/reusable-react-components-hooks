@@ -1,0 +1,45 @@
+.activeTab {
+  height: 4px;
+}
+
+.tab_border {
+  border-bottom: 5px solid darkorange;
+  position: relative;
+  bottom: -12px;
+  border-radius: 20px 20px 0px 0px;
+  width: 125%;
+}
+
+.tabs_container{
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  .tab_label {
+    color: #484848;
+    font-size: 14px;
+    font-weight: 500;
+    &.disabled{
+      color: darkgray;
+      cursor: not-allowed;
+      pointer-events: none;
+    }
+    &:hover{
+      opacity: 1;
+      transition: all 0.2s ease;
+      color: #7b7b7b;
+    }
+  }
+
+  .tab_count {
+    font-size: 12px;
+    border-radius: 12px;
+    border: #CCCCCC solid 1px;
+    margin-left: 4px;
+    color: #646464;
+    padding: 2.5px;
+    &.disabled{
+      color: darkgray;
+      cursor: not-allowed;
+    }
+  }
+}
